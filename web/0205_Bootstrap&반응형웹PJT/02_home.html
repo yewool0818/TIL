@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="01_nav_footer.css">
+  <link rel="stylesheet" href="02_home.css">
+  <title>Home</title>
+</head>
+<body>
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Navigation bar 코드를 붙여넣어 주세요. -->
+  <!-- navigation bar -->
+  <nav class="fixed-top navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- logo -->
+      <a class="navbar-brand" href="02_home.html"><img class="home-logo-img" src="images/logo.png" alt="home-logo-img"></a>
+      <!-- toggle btn -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- nav list -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="02_home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="03_community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#loginModal" data-bs-toggle="modal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal (login form) -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Heaer -->
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="loginModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Modal Body (FORM) -->
+        <div class="modal-body">
+          <form class="row g-3 d-flex flex-column">
+            <div>
+              <label for="inputUserName" class="form-label">UserName</label>
+              <input type="email" class="form-control" id="inputUserName" placeholder="Enter your email">
+            </div>
+            <div class="mb-2">
+              <label for="inputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password">
+            </div>
+            <div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 02_home.html -->
+  <!-- Heaer : Carousel-->
+  <header class="header">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/header1.jpg" class="d-block w-100" alt="header-movie-posters-1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header2.jpg" class="d-block w-100" alt="header-movie-posters-2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/header3.jpg" class="d-block w-100" alt="header-movie-posters-3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <h1 class="text-center my-4 fw-bold">Box office</h1>
+  <hr class="mt-0 mb-4">
+
+  <!-- Section -->
+  <div class="container">
+    <section class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
+      <div class="col">
+        <article class="card"><img src="images/movie1.jpg" alt="movie-poster-breakingBad" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Movie title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </article>
+      </div>
+      <div class="col">
+      <article class="card"><img src="images/movie2.jpg" alt="movie-poster-kaafrionKiNamaaz" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Movie title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col">
+      <article class="card"><img src="images/movie3.jpg" alt="movie-poster-insurgent" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Movie title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col">
+      <article class="card"><img src="images/movie4.jpg" alt="movie-poster-fightClub" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Movie title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col">
+      <article class="card"><img src="images/movie5.jpg" alt="movie-poster-leon" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Movie title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </article>
+    </div>
+    <div class="col">
+      <article class="card"><img src="images/movie6.jpg" alt="movie-poster-joker" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Movie title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </article>
+    </div>
+    </section>
+  </div><!-- container-->
+
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Footer 코드를 붙여넣어 주세요. -->
+  
+
+  <!-- Footer -->
+  <footer class="fixed-bottom d-flex flex-column justify-content-center align-items-center py-3 bg-secondary">
+    <sapn>Web-Bootstrap ToyProject by <strong>Paprika</strong></sapn>
+    <a href="https://creamilk88.tistory.com/" class="text-decoration-none mt-2 text-white"><i class="fas fa-mail-bulk"></i> go to paprika blog</a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9b53d3328c.js" crossorigin="anonymous"></script>
+</body>
+</html>

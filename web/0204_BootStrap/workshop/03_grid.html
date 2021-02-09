@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>practice3</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Bootstrap Grid System 3</h1>
+      </div>
+    </div>
+
+    <!-- 1. Viewport가 768px 미만인 경우, 각 컬럼이 4칸, 8칸씩 차지하도록 하고, 768px 이상인 경우, 각 컬럼이 4칸, 4칸을 양 끝에서 차지하며 가운데 4칸의 빈 공간이 생기도록 클래스를 추가하시오.-->
+    <div class="row">
+      <div class="item col-4 col-md-4">
+        <p>item1</p>
+      </div>
+      <div class="item col-8 col-md-4 offset-md-4">
+        <p>item2</p>
+      </div>
+    </div>
+
+
+    <!-- 2. Viewport가 768px 미만인 경우, 각 컬럼이 4칸, 4칸을 양 끝에서 차지하며 가운데 4칸의 빈 공간이 생기도록 하고,
+       992px 미만인 경우, 4칸의 빈 공간이 앞에 있고 4칸, 4칸의 컬럼이 뒤쪽에 위치하며 
+       992px 이상인 경우, 앞에 7칸의 빈 공간이 있고 뒤에 5칸의 공간을 차지하는 컬럼과 그 아래 줄에 앞뒤 2칸의 빈 공간 사이에 8 칸을 차지하는 컬럼이 위치하도록 클래스를 추가하시오.-->
+    <div class="row">
+      <div class="item col-4 offset-md-4 col-md-4 offset-lg-7 col-lg-5">
+        <p>item1</p>
+      </div>
+      <div class="item col-4 offset-4 offset-md-0 col-md-4 offset-lg-2 col-lg-8">
+        <p>item2</p>
+      </div>
+    </div>
+    
+
+    <!-- 3. 
+    Viewport 너비가 768px 미만인 경우, item1은 12칸을 차지하도록 하고 4개의 item을 감싸고 있는 박스는 12칸, 박스 내부의 item2, item3, item4, item5는 박스 너비를 12칸으로 보았을 때 각각 6칸씩 차지하도록 작성하시오.
+  
+    Viewport 너비가 768px 이상 992px 미만인 경우, item1은 3칸을 차지하도록 하고
+    4개의 item을 감싸고 있는 박스는 9칸, 박스 내부의 item2, item3, item4, item5는 박스
+    너비를 12칸으로 보았을 때 각각 6칸씩 차지하도록 작성하시오.
+
+    Viewport 너비가 992px 이상인 경우, item1은 3칸을 차지하도록 하고 4개의 item을
+    감싸고 있는 박스는 9칸, 박스 내부의 item2, item3, item4, item5는 박스 너비를
+    12칸으로 보았을 때 각각 3칸씩 차지하도록 작성하시오.-->
+    <div class="row">
+      <div class="item col-12 col-md-3 col-xl-3">
+        item1
+      </div>
+      <div class="item col-12 col-md-9 col-xl-9">
+        <div class="row">
+          <div class="item col-6 col-md-6 col-xl-3">item2</div>
+          <div class="item col-6 col-md-6 col-xl-3">item3</div>
+          <div class="item col-6 col-md-6 col-xl-3">item4</div>
+          <div class="item col-6 col-md-6 col-xl-3">item5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

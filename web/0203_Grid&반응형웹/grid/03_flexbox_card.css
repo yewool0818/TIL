@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+p {
+  font-family: Arial;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+/*  아래부터 작성 */
+
+.card { 
+  /*  1. 부모 요소에 display:flex 주기 */
+  /* card : 정렬 대상 부모이기 때문에, 여기서 display:flex 적용 */
+  display: flex;
+
+  /*  2. 축 방향 설정  - 메인을 column방향으로 설정*/
+  flex-direction: column; /* 쌓이는 방향이 위에서 아래로 */
+  
+  width: 700px;
+  border: 2px dashed black;
+  
+  /*  3. 메인 축 정렬 */
+  justify-content: space-between;
+  margin: 0 auto;  /* card 블록 화면 가운데로 정렬 */
+
+  /*  4. 교차 측 정렬 */
+  /*  필요 없음 */
+}
+
+.card-nav {
+  /*  1. 부모 요소에 display:flex 주기 */
+  /*  <h2>를 조작하기 위해 부모요소인 .card-nav에 적용 */
+  display: flex;
+
+  /*  2. 축 방향 설정 */
+  flex-direction: center;
+
+  background-color: green;
+}
+
+.card-header {
+  padding: 18px;
+}
+
+.card-header-img {
+  width: 100%; /* 부모(.card-header)의 크기에 맞춤 */
+  height: 330px;
+  display: block; /* inline content 밑에 4px 공백 들어가는 것 없애기 */
+}
+
+.card-header-description {
+   /*  1. 부모 요소에 display:flex 주기 */
+   /*  조작 대상 : <h4>  부모요소 :.card-header-description */
+  display: flex;  
+
+  /*  2. 축 방향 설정  - 메인을 column방향으로 설정*/
+  flex-direction: column;
+  
+  /*  3. 메인 축 정렬: 현재 메인 축은 column 방향 */
+  justify-content: center;
+  
+  /*  4. 교차 축 정렬 :  현재 교차 축은 main 방향 */
+  align-items: center;
+ 
+  background-color: green;
+  color: white;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.card-body-title {
+  /*  1. 부모 요소에 display:flex 주기  */
+  display: flex;
+
+  /*  2. 축 방향 : main - default -별도 설정 안해도 됨 */
+  
+  /*  3. 메인 축 정렬 */
+  justify-content: space-between;
+  /*  4. 교차 축 정렬 */
+  align-items: center;
+}
+
+.card-body-description {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: linen;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+
+  background-color: green;
+  height: 30px;
+  color: white;
+}

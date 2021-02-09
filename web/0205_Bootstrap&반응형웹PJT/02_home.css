@@ -1,0 +1,16 @@
+/* 02_home.css */
+/* 아래에 코드를 작성해 주세요. */
+section {
+  margin-bottom: 100px;
+  padding:0px;
+}
+
+article {
+  border:solid lightgrey 1px;
+  padding-bottom: 2px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}

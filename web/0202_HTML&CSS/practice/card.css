@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  /* 텍스트 스타일*/
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.container {
+  width: 1200px;
+  margin: 200px auto;
+}
+
+.card {
+  /*  부모(container) 기준으로 위치 */
+  margin: auto; /* 양 옆 마진 자동으로 줘서 가운데로 */
+  width: 700px;
+  border: dashed  gray 2px;
+}
+
+.card-nav {
+  background-color:mediumseagreen;
+  /*  텍스트 가운데 정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.card-header {
+  padding: 18px;
+}
+
+ .card-img {
+   /*  부모 공간에 100% 차지 */
+  width: 100%;
+  /*   수평 공백 삭제 */
+
+  /* 
+    img -> inline -> 4px issue 
+    : img 태그는 inline이라서 자동으로 밑에 4px 공백이 생긴다.
+     이를 해결하기 위해서 아래 3가지 방법을 활용할 수 있다. */
+  vertical-align: bottom;
+  /* display: block; */
+  /* margin-bottom: -4px; */
+}
+
+.card-img-description {
+  width: 100%; 
+  height: 70px;
+  background-color:yellowgreen;
+  /* 텍스트 좌우상하 가운데 정렬 */
+  text-align: center;
+  padding-top: .5rem; /* line-height 로도 수직 정렬 가능;*/
+  color: white;
+}
+
+.card-body{
+  padding: 18px;
+}
+/*  
+      h tag와 p tag는 block이어서, 한 줄을 다 차지한다.
+     block -> inline으로 바꿔주기 위해서는
+     display: inline을 적용해준다.
+*/
+.card-body-title > h4 {
+  display: inline;
+}
+
+.card-body-title > p {
+  display: inline;
+  float: right;
+}
+
+.card-body-content > p {
+  /*  border 전체 간격 */
+  margin-top: 8px;
+  /* border와 속성값 사이 간격  */
+  padding-top: 13px; padding-bottom: 13px;
+  padding-left: 10px; padding-right: 10px;
+  border-radius: 5px;
+  background-color: linen;
+}
+
+.card-footer {
+  /*  p 엘리먼트(속성)와 속성값 사이 간격  */
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  text-align: right;
+}
+

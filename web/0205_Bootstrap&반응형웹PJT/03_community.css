@@ -1,0 +1,30 @@
+/* 03_community.css */
+/* 아래에 코드를 작성해 주세요. */
+
+.main {
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  padding-top: 40px; padding-bottom:40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-group-item {
+  text-align: center;
+}
+
+.posting-title {
+  float:left;
+  font-size: 17px;
+}
+
+.movie-title, .register-time {
+  float: left;
+}
+
+.writer {
+  float: right;
+}

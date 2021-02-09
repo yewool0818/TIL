@@ -1,0 +1,11 @@
+/* 아래에 코드를 작성하시오. */
+section {
+  height: 500px;
+  margin-top:60px;
+  background-image: url('images/main.png');
+  background-position: center; /* 위치 */
+  background-repeat: no-repeat; /* 반복 */
+  background-size: cover; 
+  /* cover - 긴 너비에 크기를 맞춤. 빈공간이 생기지 않음. 이미지 잘릴 수 있음. , 
+     contain - 짧은 너비에 크기를 맞춤. 빈공간이 생김. 이미지 잘리지 않음.*/
+}

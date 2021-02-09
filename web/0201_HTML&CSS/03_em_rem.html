@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /*
+      em :  (부모 요소) 상속의 영향을 받음
+      rem : 최상위(root) 요소(<html>) 기준으로 결정 
+    
+    */
+      .em {
+        font-size: 1.5em;
+      }
+
+      .rem {
+        font-size: 1.5rem;
+      }
+  </style>
+</head>
+<body>
+    <!-- 예상문제 2 : em/rem 계산법 -->
+   <ul class="em"> <!-- 16px * 1.5em = 24px -->
+    <!-- 부모요소(16px * 1.5)  * 1.5em = 36px-->
+    <li class="em" >1.5em</li>
+    <!-- 16px * 1.5rem = 24px-->
+    <li class="rem" >1.5rem</li>
+    <!-- 부모요소(16px * 1.5) = 24px-->
+    <li>no class</li>
+   </ul>
+</body>
+</html>

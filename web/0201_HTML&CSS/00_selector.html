@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 전체 선택자 */
+    * {
+      /*속성(property) : 속성값*/
+      color: red;
+    }
+    /* 요소 선택자 */
+    h2 {
+      color: orange;
+    }
+
+    h3, 
+    h4 {
+      font-size: 10px;
+    }
+    /* 클래스 선택자 */
+    .green {
+      color: green;
+    }
+    /* id 선택자
+         : id는 단 하나만 선택하며, 중복될 수 없다. */
+    #purple {
+      color: purple;
+    }
+
+    /* 자식 결합자
+       : 바로 아래 자식만
+       */
+    .box > p {
+      font-size: 30px;
+    }
+
+    /* 자손 결헙자
+      : 모든 자손들 다 
+    */
+    .box p {
+      color: blue;
+    }
+    /*
+      CSS 적용 우선순위
+      중요도 (!important) > 인라인  > id 선택자 > class 선택자  > 요소 선택자(tag)
+      > 소스 순서대로
+      
+    */
+  </style>
+</head>
+<body>
+  <h1 class="green">SSAFY</h1>
+  <h2>선택자 연습</h2>
+  <div class="green box">
+    box contents
+    <!-- box 입장에서 <div>는 자식 -->
+    <div>
+      <!-- box 입장에서 <p>는 자손 (자식X)-->
+      <p>지역 목록</p>
+      <ul>
+        <li>서울</li>
+        <li id="purple">인천</li>
+        <li>강원</li>
+        <li>경기</li>
+      </ul>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam dicta earum quia recusandae delectus vitae harum sapiente saepe dolore, beatae perspiciatis distinctio commodi voluptatibus accusamus labore ducimus. Repudiandae, doloremque dolorum.</p>
+  </div>
+  <h3>HELLO</h3>
+  <h4>CSS</h4>
+</body>
+</html>

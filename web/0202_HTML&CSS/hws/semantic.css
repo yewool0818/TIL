@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  width: 800px;
+}
+
+/* 모든 스타일링 요소를 클래스로 만들어 사용합니다. */
+
+/* 2. 모든 시멘틱 태그의 margin과 padding을 4px로 만들어주세요. 
+    : margin - tag 와  tag 사이의 간격
+      padding - tag와 내부 content 속성값 사이의 간격 */
+.m-4 {
+  margin: 4px;
+}
+.p-4 {
+  padding: 4px;
+}
+/* 7. 모든 semantic 태그의 border 모서리 반경을 4px로 만들어주세요. */
+.border-round {
+border-radius: 4px;
+}
+
+/* 1. article 태그는 white로 나머지 시멘틱 태그는 lightgrey로 배경색을 바꿔주세요. */
+.article {
+   background-color: white;
+}
+
+.header, .nav, .section, .aside, .footer {
+  background-color: lightgray;
+}
+
+
+/* 3. h1 태그를 중앙 정렬 시켜주세요. */
+.h1 {
+  text-align: center;
+}
+
+/* 4. section과 aside 태그의 display를 inline-block으로 바꿔주세요. */
+.section, .aside {
+  display: inline-block; /* block -> inline-block 
+  block : 한 줄  전체
+  inline : 선택 영역만
+  inline-block :  inline과 block의 특징 둘 다 있다 - 줄바꿈 X, 선택 영역만(inline-block끼리 한줄)
+  */
+}
+
+/* 5. section 태그는 width 482px height 300px, aside 태그는 width 280px height 300px로 만들어주세요.*/
+.section {
+  width: 482px;
+  height: 300px;
+}
+
+.aside {
+  width: 280px;
+  height: 300px;
+  /* 6. aside 태그에 vertical-align속성의 값을 top으로 적용해주세요.*/
+  vertical-align: top;
+}
+
+
+

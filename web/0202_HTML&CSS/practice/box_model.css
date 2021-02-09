@@ -1,0 +1,68 @@
+.big-box {
+  /*  position : relative 
+    - 요소 자기 자신의 원래 위치(static일 때의 위치)를 기준으로 배치
+    - big-box(부모 요소)가 자식 요소들의 기준점이 됨 */
+  position: relative;
+  
+  margin: 100px auto 500px;
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+}
+
+.small-box {
+  width: 100px;
+  height: 100px;
+}
+
+#red {
+  background-color: red;
+  /* 큰 사각형 내부의 우측 하단 모서리에 빨간 사각형 위치시키기 */
+  /* parent(big-box) 기준으로 이동 : absolute */
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+
+}
+
+#gold {
+  background-color: gold;
+  /* 브라우저의 하단에서 50px, 우측에서 50px 위치에 고정하기 */
+  /* 브라우저 기준이기 때문에 viewport 기준 : fixed*/
+  position: fixed;
+  bottom: 50px;
+  right: 50px
+}
+
+#green {
+  background-color: green;
+  /* 큰 사각형의 가운데 위치시키기 */
+  /* 큰 사각형 = big-box = 부모 요소 - absolute로 제어*/
+  position: absolute;
+
+  /*  방법 1. */
+  /* top:  200px;
+  left:  200px;  */
+
+  /*  방법 2. */
+  /*  1. 반으로 위에서, 왼쪽에서 밀어내기 */
+  top: 50%; left: 50%;
+  /*  2. transform을 이용해서 대상의 크기 절반만큼 당기기 */
+  transform: translate(-50%, -50%);
+}
+
+#blue {
+  background-color: blue;
+  /* 큰 사각형 좌측 상단 모서리에서 100px, 100px 띄우기 */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#pink {
+  background-color: pink;
+  /* 큰 사각형 내부의 좌측 상단 모서리로 옮기기*/
+  position: absolute;
+  top:0px;
+  left: 0px;
+}

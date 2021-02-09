@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee576bb8-09b0-4d45-9fb0-d55d1a3cc615" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0208/11485_여러가지_input/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0208/2071_평균값구하기/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../210118_GIT/TIL 0118_GIT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../210118_데이터&amp;제어문/TIL 0118.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithem/0207_2차원배열_정렬/2d_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithem/0207_2차원배열_정렬/baby_gin_Game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithem/0207_2차원배열_정렬/sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0120/05_error_exception.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0120/05_error_exception.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0122/PJT 필기.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0122/practice/01_N_까지의_총합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0122/practice/02_리스트의_총곱.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0122/practice/03_anagram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0122/practice/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/.ipynb_checkpoints/0125_데이터 구조 및 활용(workshop)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/.ipynb_checkpoints/0125_데이터 구조 및 활용(workshop)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/0125_List Comprehension, Copy 공부.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/0125_List Comprehension, Copy 공부.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/0125_데이터 구조 및 활용(workshop).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0125_List,Dict_Copy, Comprehension/0125_데이터 구조 및 활용(workshop).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0126_데이터구조 연습문제/.ipynb_checkpoints/0126_데이터 구조 및 활용(workshop)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0126_데이터구조 연습문제/.ipynb_checkpoints/0126_데이터 구조 및 활용(workshop)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0126_데이터구조 연습문제/0126_데이터 구조 및 활용(workshop).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0126_데이터구조 연습문제/0126_데이터 구조 및 활용(workshop).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0128_OOP/.ipynb_checkpoints/0128_객체 지향 프로그래밍(homework)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0128_OOP/.ipynb_checkpoints/0128_객체 지향 프로그래밍(homework)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0128_OOP/.ipynb_checkpoints/0128_객체 지향 프로그래밍(workshop)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0128_OOP/.ipynb_checkpoints/0128_객체 지향 프로그래밍(workshop)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0128_OOP/0128_객체 지향 프로그래밍(homework).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0128_OOP/0128_객체 지향 프로그래밍(homework).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/0128_OOP/0128_객체 지향 프로그래밍(workshop).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/0128_OOP/0128_객체 지향 프로그래밍(workshop).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/0201_HTML&amp;CSS/정리/CSS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../web/0201_HTML&amp;CSS/정리/CSS.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0208/11485_여러가지_input/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0208/2071_평균값구하기/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0208/11454 Baby_gin_Game/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="12" selection-start-line="3" selection-end-line="38" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0208/11454 Baby_gin_Game/s2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/0208/11485_여러가지_input/s1.py" />
+        <option value="$PROJECT_DIR$/0208/2071_평균값구하기/s1.py" />
+        <option value="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s1.py" />
+        <option value="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="946" />
+    <option name="width" value="990" />
+    <option name="height" value="1107" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="0208" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="0208" type="462c0819:PsiDirectoryNode" />
+              <item name="2071_평균값구하기" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="0208" type="462c0819:PsiDirectoryNode" />
+              <item name="11454 Baby_gin_Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="0208" type="462c0819:PsiDirectoryNode" />
+              <item name="11485_여러가지_input" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SSAFY\TIL\algorithm\0208" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.s2">
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0208/2071_평균값구하기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0208/2071_평균값구하기/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0208/11454 Baby_gin_Game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0208/11485_여러가지_input" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0208/11485_여러가지_input/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0208/11454 Baby_gin_Game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0208/11454 Baby_gin_Game/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s1 (1)" />
+      <item itemvalue="Python.s1 (2)" />
+      <item itemvalue="Python.s2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.s2" />
+        <item itemvalue="Python.s1 (2)" />
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.s1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee576bb8-09b0-4d45-9fb0-d55d1a3cc615" name="Default Changelist" comment="" />
+      <created>1612756419908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612756419908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1390" height="788" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3293944" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32977098" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926144" visible="true" weight="0.12824428" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32977098" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50073856" side_tool="true" visible="true" weight="0.12824428" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3246951" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/0208/11454 Baby_gin_Game/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0208/11485_여러가지_input/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0208/2071_평균값구하기/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0208/11454 Baby_gin_Game/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="12" selection-start-line="3" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0208/11454 Baby_gin_Game/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

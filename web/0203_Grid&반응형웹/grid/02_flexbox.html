@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="02_flexbox.css">
+  <title>Flex Box 연습</title>
+  <style>
+    
+  /* 1. flex 박스의 시작 : 부모 요소에 display: flex 주기*/
+    .flex-container {
+      display: flex;
+      /* display: inline-flex; */
+
+      /*  요소들이 강제로 한 줄에 배치되게 할 것이닞 여부 설정 */
+      /* flex-wrap: nowrap;  default 값 :초과됐을 때 감싸지 않는다 */
+      flex-wrap: wrap; /* 창에서 초과되는 부분은 아래로 떨군다. */
+      /* flex-wrap: wrap-reverse; 창에서 초과되는 부분은 위로 올린다 */
+
+
+      /*  2. 축 방향 설정 */
+
+      /*  메인 축(수평 row)으로 방향 설정 : 쌓이는 방향 설정 (메인 축의 방향만 바뀜-단방향이기 때문에) */
+      flex-direction: row;  /* 왼쪽부터 쌓인다. - default값 */
+      /*  flex-direction: row-reverse;오른쪽부터 쌓인다. */
+      /*  교차 축(수직 column)으로 방향 설정 */
+      /* flex-direction: column; 위에서 아래로 쌓인다. */
+      /* flex-direction: column-reverse; 아래서 위로 쌓인다. */
+
+      /*  flex-direction과 flex-wrap의 shorthand */
+      /* flex-flow: column wrap; */
+     
+
+      /*  축 정렬 */
+
+      /* 3. 메인(수평-가로) 축 정렬 : justify-content */
+       justify-content: flex-start;
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+      
+      /* 4. 교차(수직-세로) 축 정렬: align-items */
+      /* align-items: stretch; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+    }
+
+  .item1 {
+    /* align-self: flex-start; */
+    /* order: 0; */
+    flex-grow: 1;
+  }
+
+  .item2 {
+    /* align-self: center; */
+    /* order: -1; */
+    flex-grow: 2;
+  }
+
+  .item3 {
+    /* align-self: flex-end; */
+    /* order: 1; */
+    flex-grow: 3;
+  }
+  </style>
+  
+</head>
+<body>
+  <div class="base">
+    <h2>Flex Box</h2>
+    <hr>
+    <div class="box flex-container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+      <div class="item7">7</div>
+      <div class="item8">8</div>
+      <div class="item9">9</div>
+      <div class="item10">10</div>
+      <div class="item11">11</div>
+      <div class="item12">12</div>
+      <div class="item13">13</div>
+    </div>
+  </div>
+</body>
+
+</html>

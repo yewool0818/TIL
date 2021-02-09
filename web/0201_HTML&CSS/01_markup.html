@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--
+        <titla> : 태그 
+        학생 건강 설문 : 값 
+        tag + 값 + attribute: Element, 요소
+    -->
+    <title>학생 건강 설문</title>
+</head>
+
+<body>
+    <header>
+        <!-- 싸피 홈페이지로 이동하는 링크 -->
+        <a href="https://www.ssafy.com">
+            <!-- src = 속성(attribute) / "ssafy.png" = 속성 값 -->
+            <img src="ssafy.png" alt="SSAFY LOGO" width="380"> <!-- 상대 경로  -->
+        </a>
+        <h1>SSAFY 5기 학생 건강설문</h1>
+    </header>
+
+    <section>
+        <!-- 건강 설문 작성 form -->
+        <form action="#">
+            <!-- 이름 입력 -->
+            <div>   
+                <!-- <label>의 for 속성과 <input>의 name 속성은 서로 짝꿍이 된다.-->
+                <label for="name">이름을 입력해주세요 : </label>
+                <input type="text" id="name" name="name" autofocus>
+            </div>
+
+            <hr>
+            
+            <!-- 지역 입력 -->
+            <div>   
+                <label for="region">지역을 선택해주세요 : </label>
+                <select name= "region" id="region">
+                    <!-- disabled: 선택 불가, selected: 다른 곳 선택 후 다시 선택 불가-->
+                    <option value="" disabled selected>선택해주세요</option>
+                    <option value="seoul">서울</option>
+                    <option value="daejeon">대전</option>
+                    <option value="gwangju">광주</option>
+                    <option value="gumi">구미</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <!-- 체온 선택 -->
+            <div>
+                <p>오늘의 체온을 선택해주세요.</p>
+                <input type="radio" name="body-heat" id="normal" value="normal">          
+                <label for="normal">37도 미만</label>          
+                <input type="radio" name="body-heat" id="warning" value="warning">          
+                <label for="warning">37도 이상</label>          
+            </div>
+            
+            <hr>
+
+            <!-- 제출 -->
+            <input type="submit" value="싸피에 제출하기">
+        </form>
+    </section>
+
+    <footer>
+        <!-- footer 내용 -->
+        Google 설문지를 통해 비밀번호를 제출하지 마시오.
+    </footer>
+</body>
+
+</html>
